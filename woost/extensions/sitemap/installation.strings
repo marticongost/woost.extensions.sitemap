@@ -1,0 +1,8 @@
+
+[woost.extensions.sitemap]
+
+    [sitemap_controller.title]
+    ca: Controlador de mapa web
+    es: Controlador de mapa web
+    en: Sitemap controller
+
