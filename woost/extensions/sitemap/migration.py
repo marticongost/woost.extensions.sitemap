@@ -14,7 +14,7 @@ def prefix_members(e):
             old_key = "sitemap_" + key
             try:
                 value = getattr(pub, old_key)
-            except KeyError:
+            except AttributeError:
                 pass
             else:
                 delattr(pub, old_key)
