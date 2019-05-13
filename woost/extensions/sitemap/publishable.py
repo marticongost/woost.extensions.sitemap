@@ -26,13 +26,6 @@ Publishable.add_member(
             "yearly",
             "never"
         ],
-        translate_value = lambda value, language = None, **kwargs:
-            "" if not value
-            else translations(
-                "woost.extensions.sitemap.change_frequency " + value,
-                language,
-                **kwargs
-            ),
         member_group = "meta.robots",
         text_search = False,
         listed_by_default = False

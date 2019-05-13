@@ -3,7 +3,7 @@
 
     [members]
 
-        [sitemap_change_frequency]
+        [x_sitemap_change_frequency]
         ca: Freqüència d'actualització
         es: Frecuencia de actualización
         en: Change frequency
@@ -45,7 +45,7 @@
                 es: Nunca
                 en: Never
 
-        [sitemap_priority]
+        [x_sitemap_priority]
         ca: Prioritat
         es: Prioridad
         en: Priority
